@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(240, 240, 240);
+}
+
+header {
+  height: 100px;
+  background-color: white;
+}
+
+img {
+  margin-top: 10px;
+  margin-left: 10px;
+  padding: 5px;
+  height: 80%;
+  vertical-align: middle;
+}
+
+h1 {
+  display: inline-block;
+  font-size: 50px;
+  vertical-align: middle;
+  font-family: sans-serif;
+}
+
+.container {
+  background-color: white;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  width: 60vw;
+  height: 500px;
+  border-radius: 10px;
+
+}
+
+.content {
+
+}
+
+button {
+  width: 80px;
+  height: 30px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  border-color: lightgrey;
+}
+
+button.dark {
+  background-color: rgb(71, 143, 241);
+  color: white;
+  margin-left: 20px;
+}
+
+button.clear {
+  background-color: white;
+  color: rgb(71, 143, 241);
+}
+
+hr {
+  border-color: rgba(240,240,240,0.3);
+}
+
+.list {
+  margin-top: 20px;
+  margin-left: 20px;
+
+}
+
+ul {
+  margin-top: 30px;
+}
+li {
+    list-style-type: none;
+    margin-top: 10px;
+}
+.arrow {
+  font-size: 10px;
+}
+
+.check-cross {
+  border-radius: 50%;
+  border: 1px solid black;
+}
+
+.check-cross.red {
+  color: red;
+  border-color: red;
+}
+.color {
+
+  padding: 5px;
+  border-radius: 10px;
+  font-size: 10px;
+}
+
+.blue {
+    background-color: rgb(71, 143, 241);
+}
+.violet {
+  background-color: violet;
+}
+.green {
+  background-color: green;
+}
+.orenge {
+  background-color: orange;
+}
+.pink {
+  background-color: pink;
+}
+.lightgreen {
+  background-color: lightgreen;
+}
